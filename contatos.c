@@ -69,7 +69,7 @@ int main(void){
     struct contatos *novo = criaContato(nome, tel, email);
     struct contatos *c;
     do {
-    	printf("\t\t@    @@@  @@@   @@@  @@@@     @@@   @@@ \n");
+    	        printf("\t\t@    @@@  @@@   @@@  @@@@     @@@   @@@ \n");
 		printf("\t\t@     @  @@  @   @   @  @     @  @  @   \n");
 		printf("\t\t@     @    @@    @   @@@@     @  @  @@@ \n");
 		printf("\t\t@     @  @  @@   @   @  @     @  @  @   \n");
@@ -81,8 +81,8 @@ int main(void){
 		printf("  @@      @@   @@  @@   @@@    @@    @@@@@@    @@    @@   @@  @   @@  \n");
 		printf("   @@@@@   @@@@@   @@    @@    @@    @@  @@    @@     @@@@@    @@@@   \n");
 		printf("======================================================================\n");
-        printf("\tSEJA BEM-VINDO(A) AO NOSSO PROGRAMA DE CONTATOS!\n\t    SELECIONE A OPÇÃO QUE DESEJA REALIZAR:\n\n");
-	    printf("\t\t  ========================\n");
+                printf("\tSEJA BEM-VINDO(A) AO NOSSO PROGRAMA DE CONTATOS!\n\t    SELECIONE A OPÇÃO QUE DESEJA REALIZAR:\n\n");
+	        printf("\t\t  ========================\n");
 		printf("\t\t  | 1 -> LISTAR CONTATOS |\n");
 		printf("\t\t  | 2 -> CRIAR CONTATOS  |\n");
 		printf("\t\t  | 3 -> BUSCAR CONTATOS |\n");
@@ -104,7 +104,7 @@ int main(void){
             break;
         case 1:
         	system("cls");
-        	printf("------------------\n");
+            printf("------------------\n");
             printf("LISTANDO CONTATOS\n");
             printf("------------------\n");
             break;
@@ -117,7 +117,7 @@ int main(void){
   	  	  	  printf(".");
 			};
 			system("cls");
-			printf("----------------\n");
+	    printf("----------------\n");
             printf("CRIANTO CONTATO\n");
             printf("----------------\n");
             printf("NOME: ");
@@ -130,13 +130,13 @@ int main(void){
             break;
         case 3:
         	system("cls");
-        	printf("-----------------\n");
+            printf("-----------------\n");
             printf("BUSCANDO CONTATO");
             printf("-----------------\n");
             break;
         case 4:
         	system("cls");
-        	printf("-----------------\n");
+            printf("-----------------\n");
             printf("APAGANDO CONTATO");
             printf("-----------------\n");
             break;
